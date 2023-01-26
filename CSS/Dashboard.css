@@ -1,0 +1,190 @@
+.nav{
+    display: flex;
+}
+.maindiv{
+  display: flex;
+}
+.menubar{
+  margin-left: 7px;
+}
+.header-logo{
+    margin-top: 9px;
+    margin-left: 15px;
+    height: 30px;
+}
+.search-box{
+  position: relative;
+  top:8px;
+  margin-top: 0px;
+  width: 1050px;
+  height: 29px;
+  margin-left: 5px;
+}
+.search-icon{
+  position: relative;
+  top:15px;
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+}
+.notification{
+  position: relative;
+  top:13px;
+  margin-left: 20px;
+  width: 22px;
+  height: 21px;
+}
+.profile{
+  position: relative;
+  top:5px;
+  margin-left:30px;
+  width: 40px;
+  height: 40px;
+}
+.para{
+  margin-left: 10px;
+}
+.dropdown2{
+  margin-left: 5px;
+}
+
+.divD{
+  position: relative;
+  left: 30px;
+  top:20px;
+
+}
+
+.D{
+    position:relative;
+    height:25px;
+}
+.DP
+{
+  position: relative;
+  left: 5px;
+  display:inline-block;
+  font:18px Roboto;
+  color: #C8242F;
+  bottom: 7px;
+
+}
+
+.divA{
+  position:relative;
+  left:30px;
+  top:12px;
+
+}
+
+.A{
+    position: relative;
+    height:25px;
+}
+.AP
+{
+  position: relative;
+  left: 5px;
+  display:inline-block;
+  font:18px Roboto;
+  color: #3E3E3E;
+  bottom:7px;
+}
+.divI{
+  position: relative;
+  left:30px;
+  top:5px;
+}
+
+.I{
+    position: relative;
+    height:25px;
+}
+.IP
+{
+  position: relative;
+  left: 5px;
+  display:inline-block;
+  font:18px Roboto;
+  color: #3E3E3E;
+  bottom:7px;
+}
+.divH{
+  position:relative;
+  left:30px;
+  top:0px;
+  height:;
+}
+
+.H{
+    position: relative;
+    height:25px;
+}
+.HP
+{
+  position: relative;
+  left: 5px;
+  display:inline-block;
+  font:18px Roboto;
+  color: #3E3E3E;
+  bottom:7px;
+}
+.divU{
+  position: relative;
+  left:30px;
+  top:0px;
+}
+
+.U{
+    position: relative;
+    height:25px;
+}
+.UP
+{
+  position: relative;
+  left: 5px;
+  display:inline-block;
+  font:18px Roboto;
+  color: #3E3E3E;
+  bottom:7px;
+}
+
+.divM{
+  position: relative;
+  left:30px;
+  top:0px;
+}
+
+.M{
+    position: relative;
+    height:25px;
+}
+.MP
+{
+  position: relative;
+  left: 5px;
+  display:inline-block;
+  font:18px Roboto;
+  color: #3E3E3E;
+  bottom:7px;
+}
+
+.divS{
+  position: relative;
+  left:30px;
+  top:0px;
+}
+
+.S{
+    position: relative;
+    height:25px;
+}
+.SP
+{
+  position: relative;
+  left: 5px;
+  display:inline-block;
+  font:18px Roboto;
+  color: #3E3E3E;
+  bottom:7px;
+}
