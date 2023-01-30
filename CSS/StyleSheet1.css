@@ -1,6 +1,7 @@
-﻿.body {
-    margin: 0px;
-    padding: 0px;
+
+
+.body {
+
     font-family: Roboto, Light;
 }
 
@@ -14,11 +15,11 @@
 }
 
 .hero-image {
-    padding:100px;
+    margin:100px;
     height:400px;
     width:400px;
     border: 20px solid #FFFFFF;
-    box-shadow: 0px 4px 31px #0000000A;
+    box-shadow: 0px 4px 5px #0000000A;
     border-radius:50%;
 }
 .maindiv {
@@ -27,15 +28,15 @@
     width: 1252px;
 }
 .companytitle {
-    
+
     display: inline-block;
     width: 950px;
     height:640px;
-   
+
 }
 .companylogo {
     position:relative;
-   
+
     border: 20px #000000;
     left:80px;
     top:150px;
@@ -50,7 +51,7 @@
     height: 100px;
 }
 .pre {
-    font: normal normal 300 40px/47px Roboto;
+    font: normal normal 300 40px/47px Roboto;   /*font: font-style font-variant font-weight font-size [/ line-height] font-family;*/
 }
 .experts {
     color: #C8242F;
@@ -68,37 +69,34 @@
     color: #3E3E3E;
     opacity: 1;
 }
-.username {
-    position: relative;
-    top: 170px;
-    left: 80px;
-    width: 429px;
-    height: 49px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #ADADAD;
-    border-radius: 5px;
-    opacity: 1;
-}
+
 .username2 {
+  position: relative;
+  top: 170px;
+  left: 80px;
+  width: 429px;
+  height: 49px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #ADADAD;
+  border-radius: 5px;
+  opacity: 1;
     width: 429px;
     height: 49px;
     border: 1px solid #ADADAD;
     border-radius: 5px;
-   
-}
-.password {
-    position: relative;
-    top: 190px;
-    left: 80px;
-    width: 429px;
-    height: 49px;
-    
-    border: 1px solid #ADADAD;
-    border-radius: 5px;
-   
+
 }
 
 .password2 {
+  position: relative;
+  top: 190px;
+  left: 80px;
+  width: 429px;
+  height: 49px;
+
+  border: 1px solid #ADADAD;
+  border-radius: 5px;
+
     width: 429px;
     height: 49px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -144,4 +142,178 @@
 }
 .right {
     margin-left:100px;
+}
+
+
+
+@media only screen and (max-width:360px) {
+  .maindiv
+  {
+    display: flex;
+    flex-direction: column;
+    height: 666px;
+  }
+
+  .hero-image{
+    height:500px ;
+    width: 500px ;
+    position:relative;
+    left:270px;
+  }
+  .right{
+    position: relative;
+    top: 70px;
+  }
+  .companylogo{
+    position: relative;
+    left:270px;
+    height:auto;
+    width: 700px ;
+  }
+  .tagline{
+    height:auto ;
+    width:auto ;
+  }
+  .experts{
+    position: relative;
+    left:4px;
+    font-size: 70px;
+    line-height: 70px;
+
+  }
+  .pre
+  {
+    position: relative;
+    left:160px;
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .logintag{
+    height:auto ;
+    width:auto;
+    font-size:75px;
+    position: relative;
+    left: 300px;
+    top: 400px;
+
+  }
+
+  .username2,.password2{
+    height: 80px;
+    width: 940px;
+    position: relative;
+    top:450px;
+    left: 190px;
+  }
+  .login
+  {
+    height: 80px;
+    width: 940px;
+    position: relative;
+    top:550px;
+    left: 190px;
+    font-size: 30px;
+  }
+
+  .Resetpassword2{
+    height: 80px;
+    width: 940px;
+    position: relative;
+    top:400px;
+    left: 190px;
+    font-size: 20px;
+  }
+  .newmember{
+    position: relative;
+    width: auto;
+    top:750px;
+    font-size: 35px;
+    left: 190px;
+  }
+  .span22{
+    position: relative;
+    top:0px;
+    font:20px !important;
+    color:#C8242F;
+    left:0px;
+  }
+
+}
+
+
+@media only screen and (min-width:727px) and (max-width:1390px)
+{
+  .hero-image{
+    position: relative;
+    top:270px;
+    margin-left: 60px;
+    left: 45px;
+    height: 270px;
+    width: 270px;
+  }
+  .right{
+    position: relative;
+    top: 70px;
+  }
+  .companylogo{
+    position: relative;
+    left: 0px;
+    height:90px;
+    width: 630px ;
+  }
+  .tagline{
+    height:200px ;
+    width:600px ;
+  }
+  .experts{
+    position: relative;
+    left:4px;
+    font-size: 60px;
+    line-height: 70px;
+
+  }
+  .pre
+  {
+    position: relative;
+    left: 0px;
+    font-size: 40px;
+    line-height: 43px;
+  }
+  .logintag{
+    height:auto ;
+    width:auto;
+    font-size:35px;
+    position: relative;
+    left: 80px;
+    top: 130px;
+
+  }
+  .username2,.password2{
+    height: 70px;
+    width: 540px;
+    position: relative;
+    top:150px;
+    left: 80px;
+    margin-top: 29px;
+  }
+  .login
+  {
+    height: 55px;
+    width: 200px;
+    position: relative;
+    top:200px;
+    left: 90px;
+    font-size: 30px;
+  }
+  .Resetpassword2{
+    height: 30px;
+    width: 150px;
+    position: relative;
+    top:0px;
+    left:80px;
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
 }

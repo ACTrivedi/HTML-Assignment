@@ -1,395 +1,423 @@
-.nav{
-    display: flex;
-}
-.maindiv{
+.nav {
   display: flex;
 }
-.menubar{
+
+.maindiv {
+  display: flex;
+}
+
+.menubar {
   margin-left: 7px;
 }
-.header-logo{
-    margin-top: 9px;
-    margin-left: 15px;
-    height: 30px;
+
+.header-logo {
+  margin-top: 9px;
+  margin-left: 15px;
+  height: 30px;
 }
-.search-box{
+
+.search-box {
   position: relative;
-  top:8px;
+  top: 8px;
   margin-top: 0px;
   width: 1050px;
   height: 29px;
   margin-left: 5px;
   border: 0px;
 }
-.search-icon{
+
+.search-icon {
   position: relative;
-  top:15px;
+  top: 15px;
   width: 20px;
   height: 20px;
   margin-left: 25px;
 }
-.notification{
+
+.notification {
   position: relative;
-  top:13px;
+  top: 13px;
   margin-left: 20px;
   width: 22px;
   height: 21px;
 }
-.profile{
+
+.profile {
   position: relative;
-  top:5px;
-  margin-left:30px;
+  top: 5px;
+  margin-left: 30px;
   width: 40px;
   height: 40px;
 }
-.para{
+
+.para {
   margin-left: 10px;
 }
-.dropdown2{
+
+.dropdown2 {
   margin-left: 5px;
 }
 
-.sidebar{
-  width:220px;
+.sidebar {
+  width: 220px;
 }
 
-.divD{
+.divD {
   position: relative;
   left: 30px;
-  top:40px;
-  width:150px;
+  top: 40px;
+  width: 150px;
 
 }
 
-.D{
-    position:relative;
-    height:25px;
-}
-.DP
-{
+.D {
   position: relative;
-  top:3px;
+  height: 25px;
+}
+
+.DP {
+  position: relative;
+  top: 3px;
   left: 5px;
-  display:inline-block;
-  font:18px Roboto;
+  display: inline-block;
+  font: 18px Roboto;
   color: #C8242F;
   bottom: 7px;
   margin-top: 10px;
 
 }
 
-.divA{
-  position:relative;
-  left:30px;
-  top:45px;
-  width:150px;
-
-}
-
-.A{
-    position: relative;
-    height:25px;
-}
-.AP
-{
+.divA {
   position: relative;
-  top:3px;
+  left: 30px;
+  top: 45px;
+  width: 150px;
+
+}
+
+.A {
+  position: relative;
+  height: 25px;
+}
+
+.AP {
+  position: relative;
+  top: 3px;
   left: 5px;
-  display:inline-block;
-  font:18px Roboto;
+  display: inline-block;
+  font: 18px Roboto;
   color: #3E3E3E;
-  bottom:7px;
-}
-.divI{
-  position: relative;
-  left:30px;
-  top:50px;
-  width:150px;
+  bottom: 7px;
 }
 
-.I{
-    position: relative;
-    height:25px;
-}
-.IP
-{
+.divI {
   position: relative;
-  top:3px;
+  left: 30px;
+  top: 50px;
+  width: 150px;
+}
+
+.I {
+  position: relative;
+  height: 25px;
+}
+
+.IP {
+  position: relative;
+  top: 3px;
   left: 5px;
-  display:inline-block;
-  font:18px Roboto;
+  display: inline-block;
+  font: 18px Roboto;
   color: #3E3E3E;
-  bottom:7px;
-}
-.divH{
-  position:relative;
-  left:30px;
-  top:60px;
-  height:;
-  width:150px;
+  bottom: 7px;
 }
 
-.H{
-    position: relative;
-    height:25px;
-}
-.HP
-{
+.divH {
   position: relative;
-  top:3px;
+  left: 30px;
+  top: 60px;
+
+  width: 150px;
+}
+
+.H {
+  position: relative;
+  height: 25px;
+}
+
+.HP {
+  position: relative;
+  top: 3px;
   left: 5px;
-  display:inline-block;
-  font:18px Roboto;
+  display: inline-block;
+  font: 18px Roboto;
   color: #3E3E3E;
-  bottom:7px;
-}
-.divU{
-  position: relative;
-  left:30px;
-  top:70px;
-  width:150px;
+  bottom: 7px;
 }
 
-.U{
-    position: relative;
-    height:25px;
-}
-.UP
-{
+.divU {
   position: relative;
-  top:3px;
+  left: 30px;
+  top: 70px;
+  width: 150px;
+}
+
+.U {
+  position: relative;
+  height: 25px;
+}
+
+.UP {
+  position: relative;
+  top: 3px;
   left: 5px;
-  display:inline-block;
-  font:18px Roboto;
+  display: inline-block;
+  font: 18px Roboto;
   color: #3E3E3E;
-  bottom:7px;
+  bottom: 7px;
 }
 
-.divM{
+.divM {
   position: relative;
-  left:30px;
-  top:75px;
-  width:150px;
+  left: 30px;
+  top: 75px;
+  width: 150px;
 }
 
-.M{
-    position: relative;
-    height:25px;
-}
-.MP
-{
+.M {
   position: relative;
-  top:3px;
+  height: 25px;
+}
+
+.MP {
+  position: relative;
+  top: 3px;
   left: 5px;
-  display:inline-block;
-  font:18px Roboto;
+  display: inline-block;
+  font: 18px Roboto;
   color: #3E3E3E;
-  bottom:7px;
+  bottom: 7px;
 }
 
-.divS{
+.divS {
   position: relative;
-  left:30px;
-  top:80px;
-  width:150px;
+  left: 30px;
+  top: 80px;
+  width: 150px;
 }
 
-.S{
-    position: relative;
-    height:25px;
-}
-.SP
-{
+.S {
   position: relative;
-  top:3px;
+  height: 25px;
+}
+
+.SP {
+  position: relative;
+  top: 3px;
   left: 5px;
-  display:inline-block;
-  font:18px Roboto;
+  display: inline-block;
+  font: 18px Roboto;
   color: #3E3E3E;
-  bottom:7px;
+  bottom: 7px;
 }
 
-.main{
+.main {
   display: flex;
-  width:100%;
+  width: 100%;
 }
 
-.rightdashboard{
-  width:1300px;
-  height:1000px;
+.rightdashboard {
+  width: 1300px;
+  height: 1000px;
   background-color: #F8F8F8;
 }
 
-.Dashboard{
+.Dashboard {
   position: relative;
   top: 25px;
-  left:40px;
+  left: 40px;
   width: 146px;
-  height:20px;
-  font:31px Roboto;
-  font-weight:200;
-  margin:0;
+  height: 20px;
+  font: 31px Roboto;
+  font-weight: 200;
+  margin: 0;
 }
 
-.counterpara
-{
+.counterpara {
   position: relative;
-  width:1250px;
-  top:80px;
-  left:0px;
-  display:flex;
+  width: 1250px;
+  top: 80px;
+  left: 0px;
+  display: flex;
 }
 
 
-.newproduct{
+.newproduct {
 
   position: relative;
-  top:0px;
-  left:40px;
-  width:220px;
-  height:85px;
-  background:#FFFFFF;
+  top: 0px;
+  left: 40px;
+  width: 220px;
+  height: 85px;
+  background: #FFFFFF;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
 
 
 }
-.addproduct{
+
+.addproduct {
 
   position: relative;
-  top:0px;
-  left:65px;
-  width:220px;
-  height:85px;
-  background:#FFFFFF;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-
-}
-.totalproduct{
-
-  position: relative;
-  top:0px;
-  left:90px;
-  width:220px;
-  height:85px;
-  background:#FFFFFF;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-
-}
-.todaysale{
-
-  position: relative;
-  top:0px;
-  left:115px;
-  width:220px;
-  height:85px;
-  background:#FFFFFF;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-
-}
-.totalsale{
-
-  position: relative;
-  top:0px;
-  left:140px;
-  width:220px;
-  height:85px;
-  background:#FFFFFF;
+  top: 0px;
+  left: 65px;
+  width: 220px;
+  height: 85px;
+  background: #FFFFFF;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
 
 }
 
-.img1{
-  width:33px;
+.totalproduct {
+
+  position: relative;
+  top: 0px;
+  left: 90px;
+  width: 220px;
+  height: 85px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.todaysale {
+
+  position: relative;
+  top: 0px;
+  left: 115px;
+  width: 220px;
+  height: 85px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.totalsale {
+
+  position: relative;
+  top: 0px;
+  left: 140px;
+  width: 220px;
+  height: 85px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.img1 {
+  width: 33px;
   height: 33px;
-  margin:25px 5px 41px 25px;
+  margin: 25px 5px 41px 25px;
 
 }
-.img2{
+
+.img2 {
   position: relative;
-  top:20px;
-  left:15px;
-}.img3{
+  top: 20px;
+  left: 15px;
+}
+
+.img3 {
   position: relative;
-  top:20px;
-  left:15px;
+  top: 20px;
+  left: 15px;
   height: 40px;
   width: 40px;
-}.img4{
-  position: relative;
-  top:20px;
-  left:15px;
-}.img5{
-  position: relative;
-  top:20px;
-  left:15px;
 }
-.info-txt{
+
+.img4 {
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+
+.img5 {
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+
+.info-txt {
   display: flex;
   flex-direction: column;
-  margin-left:0px;
+  margin-left: 0px;
   margin-top: 31px;
 
 
 }
-.info-txt h2{
-margin-left: 15px;
-width: 77px;
-height:33px;
+
+.info-txt h2 {
+  margin-left: 15px;
+  width: 77px;
+  height: 33px;
 }
-.info-txt p{
+
+.info-txt p {
 
   text-align: left;
-    font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-    opacity: 1;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #3E3E3E;
+  opacity: 1;
 }
 
-.saleheading
-{
+.saleheading {
   position: rel
 }
 
-.sale{
+.sale {
   position: relative;
   display: flex;
-  top:100px;
-  left:40px;
+  top: 100px;
+  left: 40px;
   flex-direction: row;
 }
-.saleheading{
-  margin-left:20px;
+
+.saleheading {
+  margin-left: 20px;
   margin-top: 29px;
   margin-bottom: 30px;
   width: 43px;
   height: 29px;
 }
-.w{
+
+.w {
   margin-top: 30px;
   margin-left: 480px;
 }
-.m{
+
+.m {
   margin-top: 30px;
   margin-left: 10px;
 }
-.y{
+
+.y {
   margin-top: 30px;
   margin-left: 10px;
   margin-right: 29px;
   color: #C8242F;
 }
 
-.datagraph img{
+.datagraph img {
   position: relative;
   top: 125px;
   left: 55px;
@@ -397,105 +425,393 @@ height:33px;
 
 }
 
-.piechart{
+.piechart {
   margin-top: 100px;
   margin-left: 50px;
 
 }
-.piechart h3{
+
+.piechart h3 {
   font: normal normal medium 22px/29px Roboto;
-  margin-left:50px;
+  margin-left: 50px;
   margin-top: 45px;
   letter-spacing: 0px;
   color: #3E3E3E;
 }
-.piechart img{
+
+.piechart img {
   margin-top: 0px;
   margin-left: 89px;
 }
-.country-data{
+
+.country-data {
   display: flex;
 }
-.country-vise{
-flex-direction: row;
+
+.country-vise {
+  flex-direction: row;
   display: flex;
 }
-.country-name{
+
+.country-name {
   margin-left: 9px;
 }
-.dot-red{
-    width:18px;
-    height: 18px;
-    background-color:#C8242F ;
-    border-radius: 50%;
-    margin-left: 49px;
-    margin-top: 15px;
-}
-.dot-green{
+
+.dot-red {
   width: 18px;
-    height: 18px;
-    background-color: #A2B86C;
-    border-radius: 50%;
-    margin-left: 26px;
-    margin-top: 15px;
+  height: 18px;
+  background-color: #C8242F;
+  border-radius: 50%;
+  margin-left: 49px;
+  margin-top: 15px;
 }
+
+.dot-green {
+  width: 18px;
+  height: 18px;
+  background-color: #A2B86C;
+  border-radius: 50%;
+  margin-left: 26px;
+  margin-top: 15px;
+}
+
 .dot-orange {
   width: 18px;
   height: 18px;
   background-color: #F16C20;
   border-radius: 50%;
-      margin-left: 49px;
-      margin-top: 15px;
+  margin-left: 49px;
+  margin-top: 15px;
 }
+
 .dot-yellow {
   width: 18px;
   height: 18px;
   background-color: #EBC844;
   border-radius: 50%;
-    margin-left: 26px;
-    margin-top: 15px;
+  margin-left: 26px;
+  margin-top: 15px;
 }
-.graphs{
+
+.graphs {
   display: flex;
 }
-.Invoicetitle{
+
+.Invoicetitle {
   display: flex;
   position: relative;
   top: 50px;
-  margin-left:50px;
+  margin-left: 50px;
 }
 
-.Invoicetitle p{
-  margin-top: 20  px;
+.Invoicetitle p {
+  margin-top: 20 px;
   margin-left: 1000px;
   font: normal normal normal 16px Roboto;
-color: #C8242F;
+  color: #C8242F;
 }
 
-.table{
+.table {
   position: relative;
-  width:1245px;
-  left:50px;
+  width: 1245px;
+  left: 50px;
   top: 70px;
 }
 
-.paid{
+.paid {
   text-align: left;
-  font:15px/20px Roboto;
+  font: 15px/20px Roboto;
   color: #3CDD5F;
   background-color: #EBFFEF 0% 0% no-repeat padding-box;
   border-radius: 5px;
 }
-.fail
-{
+
+.fail {
   text-align: left;
-font: normal normal normal 15px/20px Roboto;
-letter-spacing: 0px;
-color: #FF4545;
-opacity: 1;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #FF4545;
+  opacity: 1;
 }
-.pending{
+
+.pending {
   text-align: left;
-font: normal normal normal 15px/20px Roboto;
-color: #BABABA;
+  font: normal normal normal 15px/20px Roboto;
+  color: #BABABA;
 }
+
+
+/*For Mobile*/
+@media only screen and (max-width:360px) {
+ .sidebar{
+  display: none;
+ }
+  .table {
+    position: relative;
+    top: 1100px;
+    height: 1000px;
+    font-size: 30px;
+  }
+
+  .Invoicetitle {
+    display: flex;
+    position: relative;
+    top: 1050px;
+    margin-left: 50px;
+
+  }
+
+  .Invoicetitle p {
+    width: 250px;
+
+    margin-top: 20px;
+
+    margin-left: 750px;
+    font: normal normal normal 36px Roboto;
+    color: #C8242F;
+
+  }
+
+  .Invoicetitle h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font: normal normal normal 56px Roboto;
+  }
+
+
+
+  .piechart img {
+    position: relative;
+    top: 950px;
+    left: 150px;
+    width: 700px;
+    height: 700px;
+
+  }
+
+  .piechart h3 {
+    position: relative;
+    top: 950px;
+
+    font: 60px Roboto !important;
+
+    color: #3E3E3E;
+  }
+
+  .country-data {
+    display: flex;
+    position: relative;
+    Top: 980px;
+    height: 200px;
+    width: 800px;
+    left: 120px;
+    justify-content: space-between;
+
+  }
+
+  .country-vise {
+    flex-direction: row;
+    display: flex;
+
+  }
+
+  .country-name {
+    margin-left: 9px;
+    font-size: 40px;
+  }
+
+  .dot-red {
+    width: 18px;
+    height: 18px;
+    background-color: #C8242F;
+    border-radius: 50%;
+    margin-left: 49px;
+    margin-top: 15px;
+  }
+
+  .dot-green {
+    width: 18px;
+    height: 18px;
+    background-color: #A2B86C;
+    border-radius: 50%;
+    margin-left: 26px;
+    margin-top: 15px;
+  }
+
+  .dot-orange {
+    width: 18px;
+    height: 18px;
+    background-color: #F16C20;
+    border-radius: 50%;
+    margin-left: 49px;
+    margin-top: 15px;
+  }
+
+  .dot-yellow {
+    width: 18px;
+    height: 18px;
+    background-color: #EBC844;
+    border-radius: 50%;
+    margin-left: 26px;
+    margin-top: 15px;
+  }
+
+  .graphs {
+    position: relative;
+    top: -258px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .sale {
+    position: relative;
+    display: flex;
+    top: 900px;
+    left: 40px;
+    flex-direction: row;
+  }
+
+  .saleheading {
+    margin-left: 20px;
+    margin-top: 29px;
+    margin-bottom: 30px;
+    font: 60px Roboto;
+  }
+
+  .w {
+    margin-top: 30px;
+    margin-left: 980px;
+  }
+
+  .m {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .y {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 29px;
+    color: #C8242F;
+  }
+
+  .datagraph img {
+    position: relative;
+    top: 925px;
+    left: 55px;
+    width: 1117px;
+    height: 360px;
+
+  }
+
+
+  .rightdashboard {
+    position: relative;
+    top: 200px;
+    width: 1300px;
+    height: 956px;
+    background-color: #F8F8F8;
+  }
+
+  .Dashboard {
+    position: relative;
+    top: -123px;
+    left: 88px;
+    width: 146px;
+    height: 20px;
+    font: 65px Roboto;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  .counterpara {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+
+  .newproduct {
+
+    margin-left: 30px;
+    
+    background: #EBC844;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+
+
+  }
+
+  .addproduct {
+
+    
+    margin-left:3px ;
+    margin-top:5px ;
+    background: #EBC844;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .totalproduct {
+
+    
+    
+    background: #EBC844;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .todaysale {
+
+
+    
+    background: #EBC844;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .totalsale {
+   
+    background: #EBC844;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .img1 {
+    width: 90px;
+    height: 116px;
+    margin: 25px 5px 41px 120px;
+
+  }
+
+  .info-txt{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .h2, h2 {
+    position:relative ;
+    top: 50px;
+    left: 50px;
+    font-size: calc(3rem + .9vw);
+    width: 200px;
+   margin: 0;
+  }
+  
+  .tex1{
+    margin-left: 290px;
+    font-size: 40px;
+  }
+
+}
+
