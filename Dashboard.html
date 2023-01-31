@@ -6,10 +6,11 @@
     <title>Assignment2</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Dashboard.css">
+  
   </head>
   <body class="body">
         <div class="maindiv">
-        <img class="menubar" src="images/menu-bar.svg">
+        <img class="menubar" onclick="show()" src="images/menu-bar.svg">
         <img class="header-logo" src="images/logo.svg">
         <img class="search-icon"src="images/search-icon.svg">
         <input class="search-box" type="text" placeholder="search">
@@ -22,7 +23,8 @@
 
 
    <div class="main">
-     <div class="sidebar">
+    <div id="toggle-button">
+     <div class="sidebar" >
 
      <div class="divD">
        <img class="D" src="images/dashboard-active.svg" alt="">
@@ -60,6 +62,8 @@
      </div>
 </div>
 
+</div>
+
 
 <!--Dashboard main-->
 
@@ -79,7 +83,7 @@
       </div>
 
     </div>
-    <div class="addproduct">
+    <div class="newproduct">
       <img class="img1" src="images/new-product.svg" alt="">
       <div class="info-text">
         <h2>2345</h2>
@@ -87,7 +91,7 @@
       </div>
 
     </div>
-    <div class="totalproduct">
+    <div class="newproduct">
       <img class="img1" src="images/total-product.svg" alt="">
       <div class="info-text">
         <h2>23456</h2>
@@ -95,7 +99,7 @@
       </div>
 
     </div>
-    <div class="todaysale">
+    <div class="newproduct">
       <img class="img1" src="images/dollar-filled.svg" alt="">
       <div class="info-text">
         <h2 >23456</h2>
@@ -103,7 +107,7 @@
       </div>
 
     </div>
-    <div class="totalsale">
+    <div class="newproduct">
       <img class="img1" src="images/money-bag.svg" alt="">
       <div class="info-text">
         <h2>23456</h2>
@@ -118,7 +122,7 @@
       <div class="sale">
         <h3 class="saleheading">Sale</h3>
 
-        <p class="w">Weekly</p>
+        <p id="w">Weekly</p>
         <p class="m">Monthly</p>
         <p class="y">Yearly</p>
       </div>
@@ -160,7 +164,7 @@
 <div class="Invoicetitle">
   <h2>Invoices</h2>
   <p>View All</p>
-</div class="table">
+</div class="table-responsive">
   <table class="table">
   <thead>
     <tr>
@@ -262,4 +266,6 @@
 </div>
 
   </body>
+
+  <script src="/JS/Dashboard.js"></script>
 </html>

@@ -1,3 +1,7 @@
+.body{
+  height: 100vh;
+}
+
 .nav {
   display: flex;
 }
@@ -227,9 +231,8 @@
 }
 
 .rightdashboard {
-  width: 1300px;
+  width: 360px;
   height: 1000px;
-  background-color: #F8F8F8;
 }
 
 .Dashboard {
@@ -400,7 +403,7 @@
   height: 29px;
 }
 
-.w {
+#w {
   margin-top: 30px;
   margin-left: 480px;
 }
@@ -541,277 +544,168 @@
 }
 
 
+
+
+
+
+
+
 /*For Mobile*/
-@media only screen and (max-width:360px) {
- .sidebar{
-  display: none;
- }
-  .table {
-    position: relative;
-    top: 1100px;
-    height: 1000px;
-    font-size: 30px;
-  }
-
-  .Invoicetitle {
-    display: flex;
-    position: relative;
-    top: 1050px;
-    margin-left: 50px;
-
-  }
-
-  .Invoicetitle p {
-    width: 250px;
-
-    margin-top: 20px;
-
-    margin-left: 750px;
-    font: normal normal normal 36px Roboto;
-    color: #C8242F;
-
-  }
-
-  .Invoicetitle h2 {
-    margin-top: 20px;
-    margin-left: 20px;
-    font: normal normal normal 56px Roboto;
-  }
 
 
 
-  .piechart img {
-    position: relative;
-    top: 950px;
-    left: 150px;
-    width: 700px;
-    height: 700px;
-
-  }
-
-  .piechart h3 {
-    position: relative;
-    top: 950px;
-
-    font: 60px Roboto !important;
-
-    color: #3E3E3E;
-  }
-
-  .country-data {
-    display: flex;
-    position: relative;
-    Top: 980px;
-    height: 200px;
-    width: 800px;
-    left: 120px;
-    justify-content: space-between;
-
-  }
-
-  .country-vise {
-    flex-direction: row;
-    display: flex;
-
-  }
-
-  .country-name {
-    margin-left: 9px;
-    font-size: 40px;
-  }
-
-  .dot-red {
-    width: 18px;
-    height: 18px;
-    background-color: #C8242F;
-    border-radius: 50%;
-    margin-left: 49px;
-    margin-top: 15px;
-  }
-
-  .dot-green {
-    width: 18px;
-    height: 18px;
-    background-color: #A2B86C;
-    border-radius: 50%;
-    margin-left: 26px;
-    margin-top: 15px;
-  }
-
-  .dot-orange {
-    width: 18px;
-    height: 18px;
-    background-color: #F16C20;
-    border-radius: 50%;
-    margin-left: 49px;
-    margin-top: 15px;
-  }
-
-  .dot-yellow {
-    width: 18px;
-    height: 18px;
-    background-color: #EBC844;
-    border-radius: 50%;
-    margin-left: 26px;
-    margin-top: 15px;
-  }
-
-  .graphs {
-    position: relative;
-    top: -258px;
-    display: flex;
-    flex-direction: column;
-  }
-
-
-  .sale {
-    position: relative;
-    display: flex;
-    top: 900px;
-    left: 40px;
-    flex-direction: row;
-  }
-
-  .saleheading {
-    margin-left: 20px;
-    margin-top: 29px;
-    margin-bottom: 30px;
-    font: 60px Roboto;
-  }
-
-  .w {
-    margin-top: 30px;
-    margin-left: 980px;
-  }
-
-  .m {
-    margin-top: 30px;
-    margin-left: 10px;
-  }
-
-  .y {
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 29px;
-    color: #C8242F;
-  }
-
-  .datagraph img {
-    position: relative;
-    top: 925px;
-    left: 55px;
-    width: 1117px;
-    height: 360px;
-
-  }
-
-
-  .rightdashboard {
-    position: relative;
-    top: 200px;
-    width: 1300px;
-    height: 956px;
-    background-color: #F8F8F8;
-  }
-
-  .Dashboard {
-    position: relative;
-    top: -123px;
-    left: 88px;
-    width: 146px;
-    height: 20px;
-    font: 65px Roboto;
-    font-weight: 200;
-    margin: 0;
-  }
-
-  .counterpara {
-    display: flex;
-    flex-direction: column;
- 
-  }
-
-
-  .newproduct {
-
-    margin-left: 30px;
+  @media screen and (max-width: 400px) {
+    .menubar{
+      margin-top:19px;
+  
+    }
+    .rightdashboard{
+      position: relative;
+      top: 25px;
+    }
     
-    background: #EBC844;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
+    .counterpara {
+      flex-direction: column;
+    }
+    .newproduct{
+      border: 1px solid black;
 
-
-  }
-
-  .addproduct {
-
-    
-    margin-left:3px ;
-    margin-top:5px ;
-    background: #EBC844;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-
-  }
-
-  .totalproduct {
-
-    
-    
-    background: #EBC844;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-
-  }
-
-  .todaysale {
-
-
-    
-    background: #EBC844;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-
-  }
-
-  .totalsale {
-   
-    background: #EBC844;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-
-  }
-
-  .img1 {
-    width: 90px;
-    height: 116px;
-    margin: 25px 5px 41px 120px;
-
-  }
+    }
+    .graphs{
+      flex-direction: column;
+    }
+    .datagraph {
+      width: 150px;
+      margin-left: 0px;
+      height: 200px;
+    }
+    .datagraph img {
+      width: 220px;
+    }
+    .newproduct {
+      background-color: #ffffff;
+      width: 280px;
+      margin-bottom: 20px;
+    }
 
   .info-txt{
     display: flex;
     flex-direction: row;
   }
+  .tex1{
+    margin-left:95px;
+    font-size: 15px;
+    margin-top:-6px ;
+  }
 
   .h2, h2 {
     position:relative ;
-    top: 50px;
-    left: 50px;
-    font-size: calc(3rem + .9vw);
+    top:25px;
+    left: 5px;
+    font-size: calc(1.5rem + .9vw);
     width: 200px;
    margin: 0;
   }
+
+    .chart {
+      flex-direction: column;
+    }
+    .piechart {
+      width: 250px;
+      margin-left: 0px;
+    }
+    .piechart img {
+      width: 100%;
+      margin-left: 45px;
+    }
   
-  .tex1{
-    margin-left: 290px;
-    font-size: 40px;
+    .data-table {
+      margin-right: 50px;
+    }
+    #w {
+      margin-top: 35px;
+      margin-left: 30px;
+      font-size: smaller;
+    }
+    .m,.y{
+      margin-top: 35px;
+      margin-left:0 px;
+      font-size: smaller;
+
+    }
+    
+    .insight {
+      width: 300px;
+      margin-left: 0px;
+    }
+    
+
+    .header-logo{
+      height:3vh;
+      margin-top:23px;
+    }
+    .search-icon {
+      margin-left:20px;
+      margin-top: 10px;
+      width: 18px;
+      height: 18px;
+    }
+    .search-box {
+      width:15vw;
+      margin-left: 14px;
+      margin-top: 10px;
+      text-align: left;
+      font: normal normal normal 16px/21px Roboto;
+      color: #000000;
+    }
+    .notification{
+      margin-top: 11px;
+      width:15px;
+
+    }
+    .dropdown2{
+       margin-top: 17px;
+    
+    }
+
+    .profile{
+      margin-left: 14px;
+      margin-top: 17px;
+      height: 3vh;
+      width:6vw;
+    }
+    .para{
+      display: none;
+    }
+  
+    
+    #toggle-button{
+      position: absolute;
+      width:20wh ;
+      height:100vh ;
+      
+      left:0px;
+      z-index: 1;
+    }
+
+    #toggle-button.active{
+      left:600px;
+      
+    }
+
+    #toggle-button .sidebar{
+      position: absolute;
+      top:30px;
+      background-color:#ECECEC;
+      height: 600px;
+    
+    }
   }
 
-}
+
+@media only screen and (max-width:760px)
+
+
+
+
 

@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Innerpage</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Innerpage.css">
   </head>
-  <body>
+  <body class="body">
     <div class="maindiv">
       <img class="menubar" src="images/menu-bar.svg">
       <img class="header-logo" src="images/logo.svg">
@@ -19,7 +21,8 @@
   </div>
 
  <div class="main">
-   <div class="sidebar">
+  
+   <div class="sidebar open">
 
    <div class="divD">
      <img class="D" src="images/dashboard-active.svg" alt="">
@@ -55,7 +58,9 @@
      <img class="S" src="images/setting-default.svg" alt="">
      <p class="SP">Setting</p>
    </div>
-</div>
+
+
+  </div>
 
 <!-- Main dashboard -->
 <div class="rightdashboard">
@@ -63,7 +68,7 @@
     <div class="maincolumn">
       <form class="form1">
                <h5>One Column</h5>
-               <div class="mb-3">
+               <div class="mb-3 ">
                  <input type="text" class="form-control" placeholder="Name" id="exampleInputEmail1" aria-describedby="emailHelp">
                  <select class="form-select select1" id="inputGroupSelect01">
                    <option selected>Dropdown</option>
@@ -81,18 +86,18 @@
 
                 <h5>Two column</h5>
                  <div class="row">
-                   <div class="col">
+                   <div class="col-md-6 col-sm-12">
                      <input type="text" class="form-control" placeholder="Name" aria-label="First name">
                    </div>
-                   <div class="col">
+                   <div class="col-md-6 col-sm-12">
                      <input type="text" class="form-control" placeholder="John Doe" aria-label="Last name">
                    </div>
                  </div>
                  <div class="row mt-3">
-                   <div class="col">
+                   <div class=" col-md-6 col-sm-12">
                      <input type="password" class="form-control" placeholder="Password" aria-label="First name">
                    </div>
-                   <select class="form-select col select1" id="inputGroupSelect01">
+                   <select class="form-select col select1 col-md-6 col-sm-12" id="inputGroupSelect01">
                        <option selected>Dropdown</option>
                        <option value="1">One</option>
                        <option value="2">Two</option>
@@ -105,13 +110,13 @@
               <div class="threecolumndiv">
                 <h5>Three Column</h5>
                  <div class="row">
-                   <div class="col">
+                   <div class="col-md-6 col-sm-12">
                      <input type="text" class="form-control" placeholder="Focus" aria-label="First name">
                    </div>
-                   <div class="col">
+                   <div class="col-md-6 col-sm-12">
                      <input type="password" class="form-control" placeholder="Password" aria-label="Last name">
                    </div>
-                   <div class="col">
+                   <div class="col-md-6 col-sm-12">
                        <input type="text" class="form-control disabled" placeholder="John Doe" aria-label="Last name" disabled>
                      </div>
                  </div>
@@ -123,17 +128,17 @@
 
                  <h5>Four Column</h5>
                  <div class="row">
-                   <div class="col">
+                   <div class="col-md-6 col-sm-12">
                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                      </div>
-                     <div class="col">
+                     <div class="col-md-6 col-sm-12">
                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
 
                      </div>
-                   <div class="col">
+                   <div class="col-md-6 col-sm-12">
                      <input type="text" class="form-control" placeholder="John Doe" aria-label="Last name">
                    </div>
-                   <div class="col">
+                   <div class="col-md-6 col-sm-12">
                        <select class="form-select col" id="inputGroupSelect01">
                            <option selected>Dropdown</option>
                            <option value="1">One</option>
@@ -178,21 +183,18 @@
         <div class="container text-center mt-5 aakash">
 
           <div class="row">
-            <div class="m-4 px-5 py-2 col-6 col-sm-5 text-danger  border border-danger rounded"><img class="iconss" src="images/error-icon.svg"> This is an error message</div>
-            <div class="m-4 px-5 py-2 col-6 col-sm-5 text-primary border border-primary rounded"><img class="iconss" src="images/info-icon.svg"> This is an information message</div>
+            <div class="m-3 px-5 py-2 col-5 col-sm-4 text-danger  border border-danger rounded snackinfo"><img class="iconss" src="images/error-icon.svg"> This is an error message</div>
+            <div class="m-3 px-5 py-2 col-5 col-sm-4 text-primary border border-primary rounded snackinfo"><img class="iconss" src="images/info-icon.svg"> This is an information message</div>
 
-            <!-- Force next columns to break to new line -->
-            <div class="row"></div>
-
-            <div class="mx-4 px-5 py-2 col-6 col-sm-5 text-warning border border-warning rounded"><img class="iconss" src="images/warning-icon.svg"> This is a warning message</div>
-            <div class="mx-4 px-5 py-2 col-6 col-sm-5 text-success border border-success rounded"><img class="iconss" src="images/success-icon.svg"> This is a success message </div>
+            <div class="mx-3 px-5 py-2 col-5 col-sm-4 text-warning border border-warning rounded snackinfo"><img class="iconss" src="images/warning-icon.svg"> This is a warning message</div>
+            <div class="mx-3 px-5 py-2 col-5 col-sm-4 text-success border border-success rounded snackinfo"><img class="iconss" src="images/success-icon.svg"> This is a success message </div>
           </div>
         </div>
 
         <h6 class="action">Call to Action</h6>
         <div class="submitbuttons">
           <button type="button" class="btn btn-danger rounded-pill">Primary </button>
-          <button type="button" class="btn btn-outline-danger rounded-pill">Secondary</button>
+          <button type="button" class="btn btn-outline-danger rounded-pill" >Secondary</button>
         </div>
 
         <div class="tabswitch">
@@ -224,6 +226,8 @@
     </div>
 </div>
 
-
+    
   </body>
+
+  <script src="/JS/Innerpage.js"></script>
 </html>
